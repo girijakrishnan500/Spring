@@ -1,0 +1,12 @@
+package com.javainuse.dao;
+
+import java.util.List;
+
+import com.javainuse.model.Employee;
+
+public interface EmployeeDao {
+	List<Employee> getAllEmployees();
+	
+	List<Employee> getEmployeeByID(String empName);
+	
+}
